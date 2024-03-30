@@ -1,0 +1,34 @@
+nav a {
+    width: 100px;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 40px;
+    color: blueviolet;
+
+}
+
+/* To add more than one shadow to the text, add a comma-separated list of shadows. */
+h2 {
+    text-shadow: 1px 1px 2px red, 5px 5px 2px blue;
+}
+/*text-wrap values : (wrap , nowrap, balance, pretty, stable)
+balance value :Text is wrapped in a way that best balances the number of characters on each line,
+enhancing layout quality and legibility.
+Because counting characters and balancing them across multiple lines is computationally expensive, this value is only supported for blocks of text spanning a limited number of lines (six or less for Chromium and ten or less for Firefox). */
+.text-wrap {
+    text-wrap: balance;
+}
+/* Italic & Oblique
+In CSS, font style refers to whether a typeface uses an italic or oblique version. These are often used to indicate that text is a citation to another work or simply to add emphasis. In typography, normal text refers to the roman face (also called regular), in contrast to the italic face. Oblique type is referred to as sloped roman.
+
+Oblique is not italic, but they are often used synonymously
+Italic fonts were originally developed as the more script- or cursive-looking alternatives within a typeface family. They were created as unique glyphs, stylistically similar but distinct from the roman version. Italic fonts have the added benefit of being slanted, usually taking up less horizontal space, and therefore allowing for tighter ... */
+.italic {
+    font-size: 20px;
+    font-style: italic;
+}
+.Oblique {
+    font-size: 20px;
+    font-style: oblique;
+}
